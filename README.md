@@ -3,7 +3,7 @@
 Choose your adventure! This is the third programming assignment for ILS-Z399. The requirements for this assignment are as follows:
 
 * Write a Python program for playing a simple "branching-plot novel" game
-* A branching-plot novel is a work of fiction that allows the reader to participate in the story by making choices. The narrative branches along various paths, determined by the reader's choices.
+* A branching-plot novel is a work of fiction that allows the reader to participate in the story by making choices. The narrative branches along various paths, determined by the reader's choices. ([Learn more](https://en.wikipedia.org/wiki/Gamebook) about branching-plot novels.)
 * Present the player with a narrative segment and a series of choices
 * Each of those choices branches to a new narrative segment
 * Provide some happy and some sad endings
