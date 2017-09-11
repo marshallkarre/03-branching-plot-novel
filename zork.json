@@ -1,0 +1,143 @@
+{
+  "west_of_house": {
+    "description": "You are in an open field on the west side of a white house with a boarded front door. There is a small mailbox here.\n\nA rubber mat saying \"Welcome to Zork\" lies by the door.",
+    "options": [
+      {
+        "option": "Open mailbox",
+        "goto": "open_mailbox"
+      },
+      {
+        "option": "Go north",
+        "goto": "north_of_house"
+      },
+      {
+        "option": "Go south",
+        "goto": "south_of_house"
+      }
+    ]
+  },
+  "open_mailbox": {
+    "description": "A leaflet is in the mailbox.",
+    "options": [
+      {
+        "option": "Read leaflet",
+        "goto": "read_leaflet"
+      },
+      {
+        "option": "Close mailbox",
+        "goto": "west_of_house"
+      }
+    ]
+  },
+  "read_leaflet": {
+    "description": "Zork is a game of adventure, danger, and low cunning. In it you will explore some of the most amazing territory ever seen by mortal man. Hardened adventurers have run screaming from the terrors contained within.\n\nZork was created at the MIT Laboratory for Computer Science by Tim Anderson, Marc Blank, Bruce Daniels, and Dave Lebling. It was inspired by the Adventure game of Crowther and Woods, and the long tradition of fantasy and science fiction games.\n\nThis version is used as a classroom example under the fair-use clause of the copyright act.",
+    "options": [
+      {
+        "option": "Close mailbox",
+        "goto": "west_of_house"
+      }
+    ]
+  },
+  "north_of_house": {
+    "description": "You are facing the north side of a white house. There is no door here, and all the windows are barred.",
+    "options": [
+      {
+        "option": "Go east",
+        "goto": "east_of_house"
+      },
+      {
+        "option": "Go south",
+        "goto": "west_of_house"
+      }
+    ]
+  },
+  "south_of_house": {
+    "description": "You are facing the south side of a white house. There is no door here, and all the windows are barred",
+    "options": [
+      {
+        "option": "Go east",
+        "goto": "east_of_house"
+      },
+      {
+        "option": "Go north",
+        "goto": "west_of_house"
+      }
+    ]
+  },
+  "east_of_house": {
+    "description": "You are behind the white house. In one corner of the house is a window that is open.",
+    "options": [
+      {
+        "option": "Go north",
+        "goto": "north_of_house"
+      },
+      {
+        "option": "Go south",
+        "goto": "south_of_house"
+      },
+      {
+        "option": "Climb in the window",
+        "goto": "inside_house"
+      }
+    ]
+  },
+  "inside_house": {
+    "description": "This is the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west, and a dark staircase can be seen leading upward. A dark chimney leads down and to the east is a small window which is open.",
+    "options": [
+      {
+        "option": "Go out window",
+        "goto": "east_of_house"
+      },
+      {
+        "option": "Go upstairs",
+        "goto": "upstairs"
+      },
+      {
+        "option": "Go down chimney",
+        "goto": "chimney"
+      },
+      {
+        "option": "Go west",
+        "goto": "living_room"
+      }
+    ]
+  },
+  "upstairs": {
+    "description": "It is pitch black. You are likely to be eaten by a grue.",
+    "options": [
+      {
+        "option": "Stay here",
+        "goto": "upstairs2"
+      },
+      {
+        "option": "Go back downstairs",
+        "goto": "inside_house"
+      }
+    ]
+  },
+  "upstairs2": {
+    "description": "I warned you. You have been eaten by a grue.\n\nYou lose.",
+    "options": []
+  },
+  "chimney": {
+    "description": "It is pitch black. You are likely to be eaten by a grue.",
+    "options": [
+      {
+        "option": "Stay here",
+        "goto": "chimney2"
+      },
+      {
+        "option": "Stumble around in the dark",
+        "goto": "chimney2"
+      }
+    ]
+  },
+  "chimney2": {
+    "description": "Just kidding. You were killed by a troll.\n\nYou lose.",
+    "options": []
+  },
+  "living_room": {
+    "description": "You have found a treasure chest full of gold coins.\n\nYou win!",
+    "options": []
+  }
+}

@@ -1,22 +1,10 @@
 # 03-Branching-plot-novel
 
-Choose your adventure! This is the third programming assignment for ILS-Z399. The requirements for this assignment are as follows:
+Choose your adventure! This is the third programming assignment for ILS-Z399. In this program, I:
 
-* Write a Python program for playing a simple "branching-plot novel" game
-* A branching-plot novel is a work of fiction that allows the reader to participate in the story by making choices. The narrative branches along various paths, determined by the reader's choices. ([Learn more](https://en.wikipedia.org/wiki/Gamebook) about branching-plot novels.)
-* Present the player with a narrative segment and a series of choices
-* Each of those choices branches to a new narrative segment
-* Provide some happy and some sad endings
-
-To get a perfect score, you will need to think creatively! Think about ways you can make this project more interesting or fun.
-
-To complete this assignment you will need to understand:
-
-* Python basic control structures like [if and else (and elif)](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/ifstatements.html)
-* How to [compare](https://www.tutorialspoint.com/python/comparison_operators_example.htm) two values in Python
-* How to [accept user input](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/io.html)
-* How to create and call a [function](https://www.learnpython.org/en/Functions) in Python
-* How to use the Python [dictionary](http://www.pythonforbeginners.com/dictionary/how-to-use-dictionaries-in-python) data type
+* Implement some of the classic Zork text adventure as a branching novel
+* Store the game in a dictionary, and as a separate file (so that other stories can be swapped in)
+* Normalize the input and output using functions
 
 ---
 
